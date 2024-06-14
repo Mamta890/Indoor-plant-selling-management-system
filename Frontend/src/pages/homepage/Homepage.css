@@ -1,0 +1,34 @@
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .product-card {
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .product-card .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .product-card .btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  
+  .product-card .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-img {
+    height: 150px;
+    object-fit: contain; /* Ensure the entire image is visible */
+  }
+  
